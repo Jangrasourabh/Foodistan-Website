@@ -9,6 +9,7 @@ import "../src/components/css/DealsOfTheDay.css";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Home from "./Home";
 import Profile from "./Profile/profile";
+
 import ProfileNoOrder from "./Profile/P-components/profileNoOrder";
 import ProfileOrders from "./Profile/P-components/profileOrders";
 import Address from "./Profile/P-components/address";
@@ -26,6 +27,7 @@ ReactDOM.render(
         <Route path="/orders/1" component={ProfileOrders} />
         <Route path="/address" component={Address} />
         <Route path="/payments" component={Payments}/>
+        
       </Switch>{" "}
     </Router>{" "}
   </React.StrictMode>,

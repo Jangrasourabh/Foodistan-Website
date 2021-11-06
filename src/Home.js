@@ -9,6 +9,11 @@ import Trolly from "./components/common/trolly";
 import ListingCards from "./components/common/listingCards";
 import Item from "./delivery-dashboard/food-item";
 import Menu from "./delivery-dashboard/main-menu";
+import About from './components/About';
+import Blog from './components/Blog';
+import Bop from "./components/Bop";
+import Cart from './components/Cart';
+import Cartaddress from './components/Cartaddress';
 
 function Home() {
   return (
@@ -20,6 +25,11 @@ function Home() {
       <Deals />
       <OrderByCuisines />
       <ListingCards />
+      <About/>
+      <Blog/>
+      <Bop/>
+      <Cart/>
+      <Cartaddress/>
       <Footer />
     </div>
   );
